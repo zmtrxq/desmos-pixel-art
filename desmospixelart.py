@@ -1,4 +1,4 @@
-# img2desmos.py
+# desmospixelart.py
 import cv2
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
