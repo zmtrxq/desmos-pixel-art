@@ -37,8 +37,8 @@ This enhanced version features:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/DesmosPixelArt.git # Replace with your repo URL
-cd DesmosPixelArt
+git clone https://github.com/zmtrxq/desmos-pixel-art.git
+cd desmos-pixel-art
 ```
 (Or download `desmospixelart.py` directly if you prefer.)
 
@@ -72,7 +72,7 @@ Download the WebDriver for your browser (Chrome or Edge) and ensure its version 
 
 ## ⚙️ Configuration & Usage
 
-Open `desmospixelart.py` and modify the configuration variables found within the `if __name__ == '__main__':` block at the bottom of the script:
+Open `desmospixelart.py` (the main Python script in this repository) and modify the configuration variables found within the `if __name__ == '__main__':` block at the bottom of the script:
 
 ```python
 # --- Configuration ---
@@ -96,7 +96,7 @@ NUMBER_OF_COLORS = 16  # Target colors for quantization (e.g., 8, 16, 32).
 
 ### Running the Script
 
-Execute from your terminal:
+Execute from your terminal (ensure you are in the `desmos-pixel-art` directory if you cloned it):
 
 ```bash
 python desmospixelart.py
